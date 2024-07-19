@@ -1,0 +1,61 @@
+@use '../util' as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray2);
+  padding: rem(20);
+  height: 52vh;
+  border-radius: rem(16);
+  
+  &__me {
+  align-self: center;
+  width: rem(75);
+  margin-bottom: rem(30);
+  color: var(--white);
+  border-radius: 16rem;
+  }
+
+  h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: rem(23);
+  margin-bottom: rem(3);
+  font-weight: 700;
+  color: var(--white);
+  }
+  
+  h2 {
+  display: flex;
+  justify-content: center;
+  font-size: rem(13);
+  margin-bottom: rem(12);
+  font-weight: 600;
+  color: var(--green);
+  }
+  
+  p {
+  font-weight: 400;
+  font-size: rem(12);
+  margin-bottom: rem(18);
+  margin: auto rem(20) auto rem(20);
+  color: var(--white);
+  }
+  
+  
+  a,
+  a:visited,
+  a:hover {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--gray1);
+  border-radius: rem(5);
+  padding: rem(10);
+  margin-bottom: rem(10);
+
+  transition: 250ms ease-in-out;
+  }
+}
