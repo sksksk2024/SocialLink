@@ -1,3 +1,5 @@
+## This project is very special to me! I admire the simplicity that the project has and the fact this is the first project that I worked on my own and I am the most proud of between my first front-end sites!
+
 # Frontend Mentor - Social links profile
 
 ![Design preview for the Social links profile coding challenge](./preview.jpg)
